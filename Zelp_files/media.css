@@ -1,0 +1,22 @@
+@media(max-width: 920px) {
+    div.main-container div.context-info {
+        display: none;
+    }
+    div.main-container .threads-container {
+        display: none;
+        width: 95%;
+        height: 95%;
+        margin: auto;
+    }
+    div.main-container div.inbox-sidebar {
+        width: 95%;
+        height: 95%;
+        margin: auto;
+        float: none;
+    }
+    div.main-container div.inbox-sidebar div.filter-container .filter-options {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+}
