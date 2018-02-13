@@ -9,11 +9,19 @@
         margin: auto;
         position: absolute!important;
         top: 5%;
-        left: -200%;
-        z-index: 999;
+        left: 2.5%;
+        z-index: -999;
         transition: 1s ease;
+        opacity: 0;
     }
-    
+    div.main-container .threads-container .closeMobile {
+        width: 100%;
+        text-align: center;
+        background-color: crimson;
+        padding: 10px 0;
+        display: block;
+        cursor: pointer;
+    }
     div.main-container div.inbox-sidebar {
         width: 95%;
         height: 95%;
@@ -26,11 +34,15 @@
         margin: auto;
     }
     .threads {
-        height: 75%!important;
+        height: 70%!important;
     }
 }
 .messagesActive {
-    transform: translate(213%);
+    opacity: 1!important;
+    z-index: 999!important;
     display: block!important;
     transition: 1s ease;
+}
+.closeMobile {
+    display: none;
 }
