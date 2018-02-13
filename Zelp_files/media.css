@@ -4,10 +4,16 @@
     }
     div.main-container .threads-container {
         display: none;
-        width: 95%;
-        height: 95%;
+        width: 95%!important;
+        height: 90%!important;
         margin: auto;
+        position: absolute!important;
+        top: 5%;
+        left: -200%;
+        z-index: 999;
+        transition: 1s ease;
     }
+    
     div.main-container div.inbox-sidebar {
         width: 95%;
         height: 95%;
@@ -19,4 +25,12 @@
         justify-content: center;
         margin: auto;
     }
+    .threads {
+        height: 75%!important;
+    }
+}
+.messagesActive {
+    transform: translate(213%);
+    display: block!important;
+    transition: 1s ease;
 }
